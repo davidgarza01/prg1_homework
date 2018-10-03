@@ -18,3 +18,4 @@ A_p = b * (d**(1/2)) * (a**2)
 print(" The area of the pentagon is " + str(A_p))
 print(" The area of the triangle is " + str(A_t))
 print(" The area of the square is " + str(A_s))
+
