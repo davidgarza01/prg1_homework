@@ -1,7 +1,10 @@
 print("Give me some numbers!")
-integer = input(">")
-integer_list = integer.split(" ")
-for x in integer_list:
-    maximum = max(integer)
-print(maximum)
-    
+numbers = input(">")
+numbers_list = numbers.split(" ")
+print("done")
+max_number = 0
+for number in numbers_list:
+    inumber = int(number)
+    if(max_number < inumber):
+        max_number = inumber
+print("The largest number is ", max_number)
